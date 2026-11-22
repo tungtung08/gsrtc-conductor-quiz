@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conductor MCQ Test</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header quiz-topbar">
+    <a href="index.html" class="back-link">← Home</a>
+    <h1 id="test-heading">MCQ Test</h1>
+    <span id="question-count" class="pill">0 / 0</span>
+  </header>
+
+  <main class="container">
+    <section class="panel quiz-panel">
+      <div class="status-strip">
+        <span id="meta-info" class="meta-badge">Loading...</span>
+        <span id="live-score" class="score-badge">Score: 0</span>
+      </div>
+
+      <h2 id="question-text" class="question-text">પ્રશ્ન લોડ થઈ રહ્યો છે...</h2>
+
+      <div id="options-container" class="options-container"></div>
+
+      <p id="feedback-text" class="feedback-text"></p>
+
+      <div class="quiz-nav">
+        <button type="button" id="prev-btn" class="nav-btn">← Previous</button>
+        <button type="button" id="next-btn" class="nav-btn primary-btn">Next →</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/quiz.js"></script>
+</body>
+</html>
